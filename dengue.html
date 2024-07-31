@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CENMA resma anexo alberdi</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Import Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+  <!-- Import Swiper CSS -->
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  
+
+
+  <div class="dengue">
+    <nav class="nav">
+      <ul class="nav-ul">
+          <li><a href="index.html"><button type="button" class="btn btn-primary">Volver al inicio</button></a></li>
+          <li><a href="violencia.html"><button type="button" class="btn btn-success">Violencia de género</button></a></li>
+      </ul>
+  </nav>
+    <h2 class="tituloDengue">La problemática del Dengue</h2>
+  <div class="videosDengue container d-flex">
+    
+    <div class="card" style="width: 18rem;">
+        <video width="320" height="240" controls class="card-img-top">
+            <source src="assets/violenciagenero1.mp4" type="video/mp4">   
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">El ciclo del mosquito</h5>
+          <p class="card-text">Explicación breve del desarrollo del mosquito transmisor del dengue desde el huevo hasta el adulto.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <video width="320" height="240" controls class="card-img-top">
+            <source src="assets/dengue3.mp4" type="video/mp4">   
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Muestreo del dengue</h5>
+          <p class="card-text">Explicación sobre la recolección de muestras realizadas en barrio Alberdi, para su posterior análisis.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <video width="320" height="240" controls class="card-img-top">
+            <source src="assets/dengue4.mp4" type="video/mp4">   
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">Prevención del dengue</h5>
+          <p class="card-text">Consejos prácticos para evitar la propagación del dengue mediante el control de mosquitos.</p>
+          
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <video width="320" height="240" controls class="card-img-top">
+            <source src="assets/dengue2.mp4" type="video/mp4">   
+        </video>
+        <div class="card-body">
+          <h5 class="card-title">La enfermedad del dengue</h5>
+          <p class="card-text">Descripción de los síntomas y efectos del dengue en el cuerpo humano.</p>
+          
+        </div>
+        </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <!-- Import Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Import Swiper JavaScript -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Materialize and Swiper components -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Example: Initialize a Materialize dropdown
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems);
+
+      // Initialize Swiper
+      var swiper = new Swiper('.swiper-container', {
+        // Swiper options
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        loop: true,
+      });
+    });
+  </script>
+</body>
+</html>
