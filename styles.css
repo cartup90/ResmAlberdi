@@ -1,8 +1,14 @@
 
 /* azul fondo #488FDB */
 
+.bodyMain {
+    background-image: url(assets/Animated\ Shape.svg);
+    height: 100vh;
+}
+
 .dengue {
     background-image: url(assets/Virus.svg);
+    min-height: 100vh;
 }
 .videosDengue{
     display: flex;
@@ -23,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 120px;
 
     background-color: transparent;
     
@@ -30,3 +37,56 @@
 .nav .btn {
     margin: 0 10px;
 }
+.titulo {
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+.nombre {
+    font-size: 8rem;
+}
+.card-img-top {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover .tarjeta {
+    transform: scale(2.1);
+    z-index: 90;
+}
+
+.slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
