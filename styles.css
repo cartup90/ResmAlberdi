@@ -5,6 +5,10 @@
     background-image: url(assets/Animated\ Shape.svg);
     height: 100vh;
 }
+.bodyCanciones {
+  background-image: url(assets/Sound\ Wave.svg);
+  min-height: 100vh;
+}
 
 .dengue {
     background-image: url(assets/Virus.svg);
@@ -21,6 +25,7 @@
 .tituloDengue {
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 25px;
     color: white;
     font-size: 3rem;
 }
@@ -53,6 +58,9 @@
 .nombre {
     font-size: 8rem;
 }
+.contFotos {
+  margin-top: 25px;
+}
 .card-img-top {
     transition: transform 0.3s ease-in-out;
 }
@@ -60,7 +68,15 @@
     transform: scale(2.1);
     z-index: 90;
 }
-
+.contDescripcion {
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #ffffff3f;
+}
+.descripcion {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
 .slide-in-bck-center {
 	-webkit-animation: slide-in-bck-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bck-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
