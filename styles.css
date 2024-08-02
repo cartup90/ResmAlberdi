@@ -77,6 +77,54 @@
   color: #ffffff;
   font-size: 1.4rem;
 }
+.letrasCanciones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cancion {
+  display: flex;
+  flex-direction: column;
+  
+  color: white;
+  background-color: #488FDBa9;
+  border-radius: 16px;
+  max-width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+.audio {
+  margin: 5px auto;
+ 
+  width: 100%; /* Asegura que ocupe el 100% del contenedor por defecto */
+}
+
+@media (min-width: 600px) {
+  .audio {
+    max-width: 300px; /* Cambia el tamaño máximo para pantallas más grandes */
+  }
+}
+
+@media (min-width: 768px) {
+  .audio {
+    max-width: 400px; /* Cambia el tamaño máximo para pantallas aún más grandes */
+  }
+}
+
+@media (min-width: 1024px) {
+  .audio {
+    max-width: 500px; /* Cambia el tamaño máximo para pantallas de escritorio */
+  }
+}
+
+.autor {
+  font-size: 1rem;
+}
+
 .slide-in-bck-center {
 	-webkit-animation: slide-in-bck-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bck-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
