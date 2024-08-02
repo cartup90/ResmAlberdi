@@ -2,17 +2,24 @@
 /* azul fondo #488FDB */
 
 .bodyMain {
-    background-image: url(assets/Animated\ Shape.svg);
-    height: 100vh;
+  background-image: url(assets/Animated\ Shape.svg);
+  background-position: center;
+ 
+  height: 100vh;
 }
+
 .bodyCanciones {
   background-image: url(assets/Sound\ Wave.svg);
+  background-position: center;
+  
   min-height: 100vh;
 }
 
 .dengue {
-    background-image: url(assets/Virus.svg);
-    min-height: 100vh;
+  background-image: url(assets/Virus.svg);
+  background-position: center;
+  
+  min-height: 100vh;
 }
 .videosDengue{
     display: flex;
