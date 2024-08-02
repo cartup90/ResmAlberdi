@@ -83,12 +83,15 @@
   color: #ffffff;
   font-size: 1.4rem;
 }
+
 .letrasCanciones {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  width: 90%;
+ 
 }
 .cancion {
   display: flex;
@@ -97,7 +100,7 @@
   color: white;
   background-color: #488FDBa9;
   border-radius: 16px;
-  max-width: 40%;
+  width: 80%;
   padding: 10px;
   margin-top: 10px;
 
